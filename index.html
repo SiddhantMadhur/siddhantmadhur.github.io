@@ -2,10 +2,21 @@
 <html>
 <head >
     <title>Home | TheLanShow</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/webpages.css">
     <script src="backend.js"></script>
 </head>
 <body class="bg" >
+    <h4">
+        <div class="parabg">
+        <b> TheLanShow </b> &emsp; |&emsp; 
+        <a class="hyper">Home</a> &emsp;
+        <a class="hyper" href="pages/blogs.html">Blogs</a> &emsp;
+        <a class="hyper" href="pages/aboutme.html">About Me</a>
+            
+        </div>
+    </div>
+    </h4>
+    <br>
     <center>
       
         <b>
@@ -16,25 +27,15 @@
             <h2>
                 The Go-To Tech News Hub
             </h2></div>
+            
             <div class="parabg">
-            <br><a class="hyper" href="pages/aboutme.html">About Me</a>
-           
-                 |     
-                 <a class="hyper" href="pages/blogs.html">Tech News & Blogs</a>
-                
-          
-            |
-            
-                
-            <a class="hyper" href="pages/graphics.html">Graphics Art</a>
-        <br><br>
-        </div>
-            
-        <div class="parabg">
-            My Tweets
-            <br>
-            <a class="twitter-timeline" href="https://twitter.com/siddhantmadhur?ref_src=twsrc%5Etfw">Tweets by siddhantmadhur</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+                <p>Latest News</p>
+                <div id="medium-widget"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@siddhantmadhur","postsPerLine":1,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
+
+            </div>
+        
         <!--<i><a class="hyper" href="pages/login.html">login</a></i>-->
     </center>
     

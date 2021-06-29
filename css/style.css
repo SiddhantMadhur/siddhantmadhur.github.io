@@ -33,7 +33,7 @@ body {
   border-radius: 65px;
 }
 
-.links{
+.parabg{
   background-color: white;
   padding: 20px;
   margin-top: 20px;
@@ -46,6 +46,10 @@ body {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
+  border-radius: 65px;
+  font-size: large;
+  text-align: left;
+  margin-left: auto;
 }
 
 .hyperlinks{

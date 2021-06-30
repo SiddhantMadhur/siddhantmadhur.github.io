@@ -57,6 +57,8 @@ body {
   font-size: large;
   text-align: left;
   margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
 }
 
 .hyperlinks{

@@ -1,5 +1,4 @@
 body {
-    
     background-color: #212121;
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -8,71 +7,154 @@ body {
     padding-bottom: 50px;
     padding-left: 80px;
     font-size: larger;
-
 }
 
 .hyper {
     color: #393E46;
-  text-decoration: none; /* no underline */
+    text-decoration: none;
+    /* no underline */
 }
 
 .hyper:hover {
     color: #393E46;
     font-size: larger;
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .para {
-  font-size: xx-large;
+    font-size: xx-large;
 }
 
-.header{
-  padding: 3px;
-  font-size: 40px;
-  text-align: center;
-  background: white;
-  border-radius: 65px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  
+.header {
+    padding: 3px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    border-radius: 65px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.parabg{
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-  font-size: 25px;
-  border-radius: 65px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+.parabg {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 65px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-  border-radius: 65px;
-  font-size: large;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    border-radius: 65px;
+    font-size: large;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
 }
 
-.hyperlinks{
-  color: #393E46;
-  text-decoration: underline;
-
-.hyperlinks:hover{
-  text-decoration: bold;
+.hyperlinks {
+    color: #393E46;
+    text-decoration: underline;
 }
 
-.quote{
-  color: #393E46;
-  
-  text-decoration:;
-  text-align: justify;
+.hyperlinks:hover {
+    text-decoration: bold;
+}
+
+.quote {
+    color: #393E46;
+    text-align: justify;
+}
+
+.box {
+    font-weight: bold;
+    opacity: 0;
+}
+
+.b1 {
+    animation: ani1 15s infinite;
+}
+
+.b2 {
+    animation: ani2 15s infinite;
+}
+
+.b3 {
+    animation: ani3 15s infinite;
+}
+
+.b4 {
+    animation: ani4 15s infinite;
+}
+
+.b5 {
+    animation: ani5 15s infinite;
+}
+
+@keyframes ani1 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani2 {
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani3 {
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani4 {
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani5 {
+    80% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }

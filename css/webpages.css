@@ -17,7 +17,6 @@ body {
 
 .hyper:hover {
     color: #393E46;
-    font-size: larger;
     text-decoration: underline;
 }
 
@@ -62,11 +61,11 @@ body {
 
 .hyperlinks {
     color: #393E46;
-    text-decoration: underline;
+    text-;
 }
 
 .hyperlinks:hover {
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 .quote {

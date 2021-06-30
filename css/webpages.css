@@ -61,12 +61,10 @@ body {
 
 .hyperlinks{
   color: #393E46;
-  text-decoration: none; /* no underline */
-}
+  text-decoration: underline;
 
 .hyperlinks:hover{
-  color: black;
-  text-decoration: underline;
+  text-decoration: bold;
 }
 
 .quote{

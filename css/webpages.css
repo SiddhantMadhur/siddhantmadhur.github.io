@@ -157,3 +157,28 @@ body {
         opacity: 0;
     }
 }
+
+
+/** css for search boxes **/
+
+form {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+}
+
+.search {
+    width: 75%;
+}
+
+.submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+}

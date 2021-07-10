@@ -1,5 +1,5 @@
 body {
-    background-color: #212121;
+    background-color: black;
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 24px;
@@ -29,7 +29,7 @@ body {
     font-size: 40px;
     text-align: center;
     background: white;
-    border-radius: 65px;
+    border-radius: 20px;
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -40,7 +40,7 @@ body {
     padding: 20px;
     margin-top: 20px;
     font-size: 25px;
-    border-radius: 65px;
+    border-radius: 20px;
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +51,7 @@ body {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
-    border-radius: 65px;
+    border-radius: 20px;
     font-size: large;
     text-align: left;
     margin-left: auto;

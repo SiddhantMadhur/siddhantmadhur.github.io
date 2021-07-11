@@ -20,6 +20,12 @@ body {
     text-decoration: underline;
 }
 
+.bloglink {
+    color: #393E46;
+    text-decoration: none;
+    /* no underline */
+}
+
 .para {
     font-size: xx-large;
 }
@@ -66,6 +72,30 @@ body {
 
 .hyperlinks:hover {
     font-weight: bold;
+}
+
+.images {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.blog {
+    column-count: 2;
+    background-color: white;
+    padding: 40px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.inblogimages {
+    border-radius: 20px;
+    width: 100%;
 }
 
 .quote {
